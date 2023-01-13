@@ -1,0 +1,199 @@
+html,body{
+
+margin: 0;
+padding: 0;
+background-color: aliceblue;
+/* color:white; */
+
+}
+
+
+
+.head1{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /*float: right;*/
+    margin-right: 0;
+    margin-left: 60%;
+    margin-top: 10px;
+    position: absolute;
+    align-items: flex-end;
+    
+    border-radius: 5px;
+    flex-wrap: wrap;
+    
+
+}
+.menu{
+    font-size: 100%;
+    color: rgb(3, 3, 3);
+    font-weight: 200;
+    font-size: 22px;
+    
+    margin-top:30px ;
+    word-spacing:2px ;
+    padding: 5px;
+    margin: 10px;
+    background-color: beige;
+    border: 5px;
+    border-radius: 10px;
+    box-shadow: 10px;
+    gap: 5px;
+
+    
+    
+   
+    
+}
+.menu:hover{
+    
+    background-color: rgb(230, 230, 139);
+    
+    
+}
+.logo{
+    margin:10px ;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+}
+.header{
+
+background-image: url(images/back.jpg);
+
+min-height: 100vh;
+min-width: 100%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+opacity: 0.8;
+
+}
+.intro{
+    color: white;
+    font-size: 90px;
+    text-align: justify;
+    font-weight: 400;
+    font-style: oblique;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.sml{
+    font-size: 20px;
+}
+
+.intro{
+
+    font-size: 100px;
+    font-style: oblique;
+    margin:  auto;
+
+}
+.basic{
+
+    font-size: 25px;
+    text-align: justify;
+    word-spacing: 3px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    text-shadow: 3px;  
+    padding: 30px;
+    margin: 5px;
+
+
+}
+
+.one{
+    background-color: aquamarine;
+
+}
+.image1 img{
+    height: 300px;
+    width: 350px;
+    background-repeat: no-repeat;
+    border: 2px solid silver;
+    border-radius: 8px;
+}
+.card{
+    display: flex;
+    flex-direction: column ;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: justify;
+    align-items: center;
+    padding: 20px;
+}
+.work{
+    display:flex;
+    flex-direction: row;
+}
+.type{
+    
+    text-shadow: 5px gray;
+    
+}
+.card:hover{
+
+transform: scale(1.04);
+transition: 0.2s;
+
+
+}
+.footer{
+    background-image: url(images/lower.png);
+    min-height: 40vh;
+    min-width: 40vh;
+    margin-top: 10px;
+    
+    background-repeat: no-repeat;
+    
+    background-color: bisque;
+   
+    
+    background-size: cover;
+    background-position: center;
+   
+    
+}
+.footh3 h2{
+    font-family: monospace;
+    font-style: oblique unset;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 20%;
+    
+   
+
+}
+.handels{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+.handels a{
+    text-decoration: none;
+    margin: 5px;
+    margin-left: 20%;
+    font-style: oblique;
+    transform: scale(1.5);
+    transition: 0.2s;
+    padding: 10px;
+
+}
+.handels a:hover{
+    color: rgb(74, 197, 246);
+    
+}
+.handels a:visited{
+    color: rgb(236, 143, 143)
+}
+.handels a:active{
+    color: purple;
+}
